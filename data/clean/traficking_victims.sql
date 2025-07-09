@@ -4,7 +4,7 @@ USE traficking_victims;
 
 -- Region
 CREATE TABLE `Region` (
-  `Region_id` INT AUTO_INCREMENT ,
+  `Region_id` INT  ,
   `Region_name` VARCHAR(200),
   PRIMARY KEY (`Region_id`)
 );
