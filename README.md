@@ -84,10 +84,6 @@ The database schema is relationally structured to support multi-layered analysis
 - Each `Country` has multiple `Offenses`.
 - A `Region` contains multiple `Subregions`, which contain multiple `Countries`.
 
-
-![ER Model](first_project\slides\ERM.png)
-![ER Diagram](first_project\slides\ERD.png) 
-
 This normalized schema allows efficient filtering and joins across geography, victim profiles, and offense dimensions.
 
 ---
@@ -117,7 +113,7 @@ This normalized schema allows efficient filtering and joins across geography, vi
 - ✅ [Repository "first_project" on GitHub](https://github.com/mari21041/first_project) 
 - ✅ [Raw dataset](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fdataunodc.un.org%2Fsites%2Fdataunodc.un.org%2Ffiles%2Fdata_glotip.xlsx&wdOrigin=BROWSELINK)
 - ✅ Jupyter Notebook with cleaned and documented dataset (`load_clean_data.csv`)
-- ✅ ERM and ERD schemas with relationship logic
+- ✅ [ERM](https://drive.google.com/file/d/1K6g8iacPmOH4xyw32cq3ZIzWp2HjeI9l/view?usp=sharing) and [ERD](https://drive.google.com/file/d/1agwrljU8L0C170yCcepnFEtQ0ZqyhkqO/view?usp=sharing) schemas with relationship logic
 - ✅ Jupyter Notebook with EDA and visualizations
 - ✅ MySQL file with data base and quaries
 - ✅ README documentation
@@ -136,15 +132,15 @@ This normalized schema allows efficient filtering and joins across geography, vi
 ## 🛠️ Future Work
 
 - Further research can be done to include perpetrators information (from additional dataset) to create an overall view of both victims and perpetrators.
-- The analysis can be deepened into specific trafficking dynamics in each country for more focused enforcement efforts
-- Analyze the possibility of using predictive models to complete the "Unknown" values of the reports
+- The analysis can be deepened into specific trafficking dynamics in each country for more focused enforcement efforts.
+- Analyze the possibility of using predictive models to complete the "Unknown" values of the reports.
 
 ---
 
 ## 👥 Contributors
 
-- Hipolito Marin  
 - Marianne Filbig  
+- Hipolito Marin
 - Delmar Bumanglag  
 - Egbe Grace  
 
